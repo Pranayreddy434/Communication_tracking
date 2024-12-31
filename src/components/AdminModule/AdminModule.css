@@ -1,0 +1,425 @@
+/* General Styles */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.communication-method {
+  background-color: #f9f9f9;
+  
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-method {
+  display: flex;
+  
+  justify-content: center;
+ 
+}
+
+.add-method input {
+ 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+  width: 70%;
+}
+
+.add-method input:focus {
+  border-color: #0056b3;
+}
+
+.add-method button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-method button:hover {
+  background-color: #218838;
+}
+
+.methods-list {
+  margin-top: 20px;
+  animation: fadeIn 0.7s ease-out;
+}
+
+.methods-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.methods-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.methods-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.methods-list button {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.methods-list button:hover {
+  transform: scale(1.05);
+}
+
+.methods-list p {
+  text-align: center;
+  color: #777;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* General Styles */
+.add-company {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+h3.form-title {
+  color: #333;
+  text-align: center;
+}
+
+.message {
+  color: green;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-group label {
+  color: #444;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin: 0;
+  gap: 0;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #0056b3;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #004080;
+}
+
+.company-list {
+  animation: fadeIn 0.7s ease-out;
+}
+
+.list-title {
+ 
+  color: #333;
+}
+
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.company-table th,
+.company-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.company-table th {
+  background-color: #0056b3;
+  color: white;
+}
+
+.company-row {
+  transition: background-color 0.3s ease;
+}
+
+.company-row:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 6px 12px;
+ 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.btn-edit {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-edit:hover {
+  transform: scale(1.05);
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-delete:hover {
+  transform: scale(1.05);
+}
+
+.no-companies {
+  text-align: center;
+  color: #777;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* General Styles */
+.admin-dashboard {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+
+.company-list table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+  animation: fadeIn 0.7s ease-out;
+}
+
+.company-list th, .company-list td {
+ 
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.company-list th {
+  background-color: #007bff;
+  color: white;
+}
+
+.company-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.company-list tr:hover {
+  background-color: #f1f1f1;
+}
+
+.company-list button {
+  
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-right: 5px;
+}
+
+.company-list button:hover {
+  transform: scale(1.05);
+}
+
+.company-list button:last-child {
+  background-color: #dc3545;
+}
+
+.company-list button:last-child:hover {
+  background-color: #c82333;
+}
+
+.communication-method {
+  margin-top: 40px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.communication-method h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.communication-method ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.communication-method li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.communication-method li:hover {
+  background-color: #f1f1f1;
+}
+
+.communication-method button {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.communication-method button:hover {
+  transform: scale(1.05);
+}
+
+.communication-method input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.communication-method input:focus {
+  border-color: #0056b3;
+}
+
+.communication-method .add-method {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.communication-method .add-method button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.communication-method .add-method button:hover {
+  background-color: #218838;
+}
+
+.communication-method .methods-list {
+  margin-top: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

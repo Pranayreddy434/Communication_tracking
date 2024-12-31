@@ -1,0 +1,253 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* User Dashboard Styles */
+.user-dashboard {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-dashboard h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-dashboard p {
+  font-size: 16px;
+  color: #555;
+}
+
+.user-dashboard-links a {
+  display: block;
+  margin: 10px 0;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.user-dashboard-links a:hover {
+  text-decoration: underline;
+}
+
+/* Communication Form Styles */
+.communication-form {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.communication-form h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.communication-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.communication-form div {
+  margin-bottom: 15px;
+}
+
+.communication-form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.communication-form input,
+.communication-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.communication-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.communication-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Notifications Styles */
+.notifications {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.notifications h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.notifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notifications li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.notifications strong {
+  color: red;
+}
+
+/* Past Communications Styles */
+.past-communications {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.past-communications h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.past-communications table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.past-communications th,
+.past-communications td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.past-communications th {
+  background-color: #f8f8f8;
+}
+
+.past-communications td {
+  font-size: 16px;
+}
+
+/* Settings Page Styles */
+.settings-container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.settings-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.settings-container .form-group {
+  margin-bottom: 15px;
+}
+
+.settings-container label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.settings-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.settings-container input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.settings-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.settings-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+.settings-container.dark {
+  background-color: #333;
+  color: white;
+}
+
+.settings-container.dark label,
+.settings-container.dark input {
+  background-color: #555;
+  border-color: #444;
+  color: white;
+}
+
+.settings-container.dark button {
+  background-color: #007bff;
+}
+
+.settings-container.dark button:hover {
+  background-color: #0056b3;
+}
+
+/* Calendar Styles */
+.react-calendar {
+  max-width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
