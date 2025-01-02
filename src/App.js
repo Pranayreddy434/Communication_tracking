@@ -31,8 +31,10 @@ function App() {
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/reports" element={<PastCommunications/>} />
         <Route path="/settings" element={<SettingsPage/>} />
-
+        
       </Routes>
+      {location.pathname !== '/' && location.pathname !== '/signup' && <Footer />}
+
       
     </div>
   );

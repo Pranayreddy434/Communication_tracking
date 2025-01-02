@@ -25,7 +25,7 @@ const SignupPage = () => {
     if (validateForm()) {
       // Handle successful form submission
       console.log("Form submitted:", formData);
-      navigate("/login");
+      navigate("/");
     }
   };
 

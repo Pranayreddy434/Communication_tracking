@@ -22,6 +22,12 @@ const LoginPage = () => {
     } else {
       setErrorMessage("Invalid username or password");
     }
+    if (username === "admin" && password === "admin123") {
+      alert("Login successful!");
+      navigate("/admin-dashboard");  // Redirect to user dashboard or admin dashboard
+    } else {
+      setErrorMessage("Invalid username or password");
+    }
   };
 
   return (
